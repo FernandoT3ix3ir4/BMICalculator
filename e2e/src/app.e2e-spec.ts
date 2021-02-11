@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to BMICalculator!');
+    expect(page.getTitleText()).toEqual('bmi-calculator app is running!');
   });
 
   afterEach(async () => {
