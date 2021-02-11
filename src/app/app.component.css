@@ -1,0 +1,37 @@
+main {
+    min-height: 99vh;
+    background: linear-gradient(to right top , #65dfc9, #6cfdeb );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    min-height: 79vh;
+    background: white;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2vh;
+    display: flex;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+}
+
+.circle1, .circle2 {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+
+}
+
+.circle1{
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 13%;
+}
