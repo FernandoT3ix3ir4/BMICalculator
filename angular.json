@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bmi-calculator"
+    }
+  },
+  "defaultProject": "bmi-calculator",
+  "cli": {
+    "analytics": "0b4c6645-f492-4fc4-876d-c193e041d43a"
+  }
 }
